@@ -11,7 +11,7 @@ try:
     n.activate_learning_mode(False)
     print "Stirring coffee"
     n.move_pose(0.1, 0.15, 0.23, 0.25, 1.551, 0)
-    n.changeTool(TOOL_GRIPPER_1_ID)
+    n.change_tool(TOOL_GRIPPER_1_ID)
     n.open_gripper(TOOL_GRIPPER_1_ID, 100)
     n.close_gripper(TOOL_GRIPPER_1_ID, 100)
     for i in range 2:
