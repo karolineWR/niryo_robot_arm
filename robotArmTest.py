@@ -11,7 +11,7 @@ try:
     n.calibrate_auto()
     print "Calibration finished"
     n.activate_learning_mode(False)
-    n.changeTool(TOOL_GRIPPER_1_ID)
+    n.change_tool(TOOL_GRIPPER_1_ID)
     n.close_gripper(TOOL_GRIPPER_1_ID, 100)
     time.sleep(2)
     n.open_gripper(TOOL_GRIPPER_1_ID, 100)
