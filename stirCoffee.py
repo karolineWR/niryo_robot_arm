@@ -14,7 +14,7 @@ try:
     n.change_tool(TOOL_GRIPPER_1_ID)
     n.open_gripper(TOOL_GRIPPER_1_ID, 100)
     n.close_gripper(TOOL_GRIPPER_1_ID, 100)
-    for i in range 2:
+    for i in range (2):
         n.move_pose(0.13, 0.15, 0.23, 0.25, 1.551, 0)
         n.move_pose(0.13, 0.18, 0.23, 0.25, 1.551, 0)
         n.move_pose(0.1, 0.18, 0.23, 0.25, 1.551, 0)
